@@ -23,5 +23,5 @@ function cutArray(array, min, max){
 }
 
 const finalArray = cutArray(arrayNumbers, 3, 6);
-console.log(finalArray);
+document.getElementById(`cutarray`).innerHTML = finalArray;
 
