@@ -10,4 +10,4 @@ function reverseString(string){
 
 // Costante che riceve la parola invertita
 const reversedString = reverseString(stringToReverse);
-console.log(reversedString);
+document.getElementById(`inverted-word`).innerHTML = reversedString;
