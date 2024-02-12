@@ -14,4 +14,4 @@ function maiuscLetters(string) {
 }
 
 const stringWithMaiusc = maiuscLetters("nel mezzo del cammin di nostra vita");
-console.log(stringWithMaiusc);
+document.getElementById(`maiusc-word`).innerHTML = stringWithMaiusc;
