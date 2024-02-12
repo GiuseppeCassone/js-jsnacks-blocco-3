@@ -10,4 +10,4 @@ function reorder(string) {
 }
 
 const alphabeticalString = reorder(notAlphabeticalString);
-console.log(alphabeticalString);
+document.getElementById(`alphabet`).innerHTML = alphabeticalString;
