@@ -23,4 +23,4 @@ function arrayFunction(firstArray, secondArray) {
 
 // Costante con i due array fusi tra loro
 const fusedArray = arrayFunction(firstArray, secondArray);
-console.log(fusedArray);
+document.getElementById(`fused`).innerHTML = fusedArray;
